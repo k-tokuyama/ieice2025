@@ -30,12 +30,12 @@ def output_HOR(param_sets):
     s1, s2, veloc, lam1, lam2p, mb, rd, P0, P1, beta = param_sets
 
 #    DivNum1 = 100
-#    DivNum2 = 4
-#    DivNum_x = 50
+#    DivNum2 = 16
+#    DivNum_x = 100
 
     DivNum1 = 200
-    DivNum2 = 8
-    DivNum_x = 100
+    DivNum2 = 32
+    DivNum_x = 200
 
     def wcos(r, l, theta):
         return np.sqrt(r**2 + l**2 - 2*r*l*np.cos(theta))
