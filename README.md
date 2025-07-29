@@ -3,7 +3,7 @@
 - Available for the 2 types of the PPCP classes; Thomas point process (->TCP) and Mattern cluster process (->MCP).
 - 1st argument: the system parameter set csv; see "param_set_example.csv".
 - 2nd argument: the PPCP class indicator; TCP(tcp)/MCP(mcp).
-- Run this script AFTER RUNNNING "main_cDR-per-period.py" (otherwise this script does not work).
+- Run this script AFTER runnning "main_cDR-per-period.py" and making an empty directory named "database/" (otherwise this script does not work).
 - Running command example: python main_cDR.py param_set_example.csv MCP
 
 Required modules:
